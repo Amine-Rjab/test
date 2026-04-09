@@ -21,10 +21,7 @@ app.get("/eval", (req, res) => {
 
     const code = req.query.code;
 
-    // Dangerous eval
-    const result = eval(code);
-
-    res.send(result);
+    
 
 });
 
