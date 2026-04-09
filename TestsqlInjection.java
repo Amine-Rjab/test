@@ -19,4 +19,4 @@ public class TestSQLInjection {
 
         stmt.executeQuery(query);
     }
-}
+}// End of TestSQLInjection class
