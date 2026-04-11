@@ -49,7 +49,7 @@ public class VulnerableApp {
         }
 
         System.out.println("Enter filename to read:");
-        String filename = scanner.nextLine();
+        String filename = scanner.nextLine();// User input for filename
 
         // Path Traversal vulnerability
         try {
