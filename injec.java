@@ -18,5 +18,5 @@ public class TestSQLInjection {
         String query = "SELECT * FROM users WHERE username = '" + username + "'";
 
         stmt.executeQuery(query);
-    }
+    }//hii testing
 }//Test SQL Injection

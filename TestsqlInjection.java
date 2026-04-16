@@ -5,7 +5,7 @@ public class TestSQLInjection {
     public static void main(String[] args) throws Exception {
 
         String username = args[0];
-        //connection
+        
         Connection conn = DriverManager.getConnection(
             "jdbc:mysql://localhost/test",
             "root",
@@ -14,7 +14,7 @@ public class TestSQLInjection {
 
         Statement stmt = conn.createStatement();
 
-        // SQL Injection
+        
         String query = "SELECT * FROM users WHERE username = '" + username + "'";
 
         stmt.executeQuery(query);
