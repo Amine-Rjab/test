@@ -5,7 +5,7 @@ import sqlite3
 API_KEY = "123456-SECRET-KEY"
 
 def run_command(user_input):
-    # Command injection vulnerability
+    
     subprocess.call("ls " + user_input, shell=True)
 
 def login(username, password):
