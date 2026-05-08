@@ -10,7 +10,7 @@ app.get("/exec", (req, res) => {
 
     const exec = require("child_process").exec;
 
-    // Command injection oui oui
+    // Command injection 
     exec(cmd, (err, stdout) => {
         res.send(stdout);
     });
