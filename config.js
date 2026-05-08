@@ -6,4 +6,4 @@ module.exports = {
 
   jwt_secret: "super-secret-token"
 
-};//comment
+};//commen
