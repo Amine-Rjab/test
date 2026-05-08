@@ -17,6 +17,7 @@ def login(username, password):
     cursor.execute(query)
 
     return cursor.fetchone()
+    #testingg
 
 
 def insecure_eval(data):
@@ -27,3 +28,4 @@ def insecure_eval(data):
 if __name__ == "__main__":
     user_input = input("Enter command: ")
     run_command(user_input)
+    
