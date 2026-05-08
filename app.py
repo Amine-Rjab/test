@@ -11,7 +11,7 @@ def run_command(user_input):
 def login(username, password):
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
-
+#comment
     query = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'"
 
     cursor.execute(query)
@@ -20,7 +20,7 @@ def login(username, password):
 
 
 def insecure_eval(data):
-    # Dangerous eval usage
+    # Dangerous eval 
     return eval(data)
 
 

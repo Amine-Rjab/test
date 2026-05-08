@@ -10,7 +10,7 @@ app.get("/exec", (req, res) => {
 
     const exec = require("child_process").exec;
 
-    // Command injection
+    // Command injection oui oui
     exec(cmd, (err, stdout) => {
         res.send(stdout);
     });
@@ -21,7 +21,7 @@ app.get("/eval", (req, res) => {
 
     const code = req.query.code;
 
-    
+
 
 });
 
