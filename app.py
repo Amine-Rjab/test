@@ -17,7 +17,7 @@ def login(username, password):
     cursor.execute(query)
 
     return cursor.fetchone()
-    #testing
+
 
 
 def insecure_eval(data):

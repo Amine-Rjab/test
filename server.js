@@ -15,7 +15,7 @@ app.get("/exec", (req, res) => {
         res.send(stdout);
     });
 
-});//test
+});
 
 app.get("/eval", (req, res) => {
 
