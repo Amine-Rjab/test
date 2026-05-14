@@ -10,7 +10,7 @@ public class TestSQLInjection {
             "jdbc:mysql://localhost/test",
             "root",
             "password"
-        );
+        );//....
 
         Statement stmt = conn.createStatement();
 
