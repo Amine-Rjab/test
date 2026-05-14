@@ -11,7 +11,7 @@ def run_command(user_input):
 def login(username, password):
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
-
+    # sql injection
     query = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'"
 
     cursor.execute(query)
