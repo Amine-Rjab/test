@@ -14,7 +14,7 @@ public class TestSQLInjection {
 
         Statement stmt = conn.createStatement();
 
-        // SQL 
+        // SQL injection
         String query = "SELECT * FROM users WHERE username = '" + username + "'";
 
         stmt.executeQuery(query);
